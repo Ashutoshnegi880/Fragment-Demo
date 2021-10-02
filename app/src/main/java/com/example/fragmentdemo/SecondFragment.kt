@@ -10,10 +10,6 @@ import kotlinx.android.synthetic.main.fragment_first.*
 /**
  * A simple [Fragment] subclass.
  */
-class SecondFragment : Fragment(R.layout.fragment_first) {
+class SecondFragment : Fragment(R.layout.fragment_second) {
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        tvFirstFragment
-    }
 }
